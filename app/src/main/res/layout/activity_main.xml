@@ -49,11 +49,12 @@
     </LinearLayout>
 
     <Button
+
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="50dp"
-        android:textColor="@color/white"
         android:background="@color/black"
+        android:textColor="@color/white"
         android:text="인생 고고"/>
 
 </LinearLayout>
