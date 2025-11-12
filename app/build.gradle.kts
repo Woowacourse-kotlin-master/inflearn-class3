@@ -1,3 +1,5 @@
+@file:Suppress("UNUSED_EXPRESSION")
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
@@ -33,6 +35,8 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures { dataBinding = true }
 }
 
 dependencies {
